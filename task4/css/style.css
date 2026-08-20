@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.top-section{
+     background-image: url(https://images.pexels.com/photos/7078666/pexels-photo-7078666.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+.container1{
+   
+    background-color: rgba(0, 0, 0, 0.46);
+    width: 100%;
+    text-align: left;
+}
+.title-1{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top:7% ;
+    text-align: left;
+
+}
+.small-text{
+    color: orange;
+    font-weight: lighter;
+    font-family:sans-serif;
+}
+.div1{
+   width: 40%;
+   padding: 2%;
+   color: white;
+   font-size: 20px;
+   margin: 0% 2%;
+
+}
+.hr-2{
+     width: 10%;
+    border-color:white;
+    border-style: solid;
+    margin: 2% auto;
+}
+.h2-style{
+    text-align: left;
+
+
+}
+.div2{
+    width: 40%;
+    padding:2%;
+    margin: 2%;
+    display:inline-block;
+}
+.text-div{
+    text-align: left;
+    color: rgb(128, 127, 127);
+    margin: 3%;
+}
+.div3{
+    width: 30%;
+    margin:2%;
+    
+    background-color: white;
+    display: inline-block;
+}
+.form-top{
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    font-size: 15px;
+    /* margin: 0% auto; */
+    background-color: rgb(242, 241, 241);
+
+
+}
+.h2-form{
+    text-transform: capitalize;
+    text-align: left;
+}
+.h2-span{
+    text-transform: uppercase;
+    color: orange;
+}
+.form{
+    width: 100%;
+    background-color: white;
+    padding-top: 10%;
+
+}
+.form-div{
+   width: 100%;
+   height: 100%;
+   text-align: left; 
+}
+.border{
+    border: none;
+    border-bottom: 3px rgb(224, 223, 223) solid;
+    width: 80%;
+    text-align:left;
+    margin-bottom: 5%;
+}
+.form-button{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-color: orange;
+}
+.hr-1{
+     width: 10%;
+    border-color:white;
+    border-style: solid;
+    margin: 2% auto;
+}
+.button{
+    width: 30%;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    padding: 4px;
+    font-size: 18px;
+    margin: 2;
+}
+.hr{
+    width: 10%;
+    border-color: orange;
+    border-style: solid;
+    margin: 2% auto;
+}
+.text{
+    color:rgb(128, 127, 127);
+    font-size: 15px;
+    width:40% ;
+    margin: auto;
+}
+
+.title{
+    margin: 2% auto;
+}
+.container2{
+    width: 100%;
+    background-color: white;
+}
+.intro{
+    width: 40%;
+    display: inline-block;
+    margin: 2%;
+    text-align: left;
+
+}
+.icons{
+    width: 40%;
+    display: inline-block;
+}
+.icon-app{
+    margin: 4%;
+    padding: 2%;
+    color: lightgray;
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+
+}
+.tall{
+    width: 100%;
+    color: grey;
+}
+.h2-text{
+    text-align: left;
+    margin: 2%;
+    color: rgb(178, 177, 177);
+}
+.container3{
+    width: 100%;
+    height: 500px;
+    background-color: lightgrey;
+    display: flex;
+    margin: 0%;
+    padding: 2%;
+
+}
+.tabs{
+    width: 25%;
+    display: inline-block;
+    margin: 2% 3%;
+    
+
+
+}
+.tab1{
+    width: 30%;
+    padding: 8%;
+    background-color: orange;
+    text-align: center;
+}
+.tab2{
+     width: 30%;
+    padding: 8%;
+    background-color: gray;
+    text-align: center;
+}
+.paragraph{
+    width: 30%;
+    display: inline-block;
+
+
+}
+.btn{
+    background-color: orange;
+    padding: 2%;
+    width: 30%;
+}
+.img{
+    width:20%;
+    margin:1% 4%;
+}
+.reflect{
+    width: 100%;
+    -webkit-box-reflect: below 2px linear-gradient(transparent 30%, rgba(255, 255, 255, 0.6));
+}
