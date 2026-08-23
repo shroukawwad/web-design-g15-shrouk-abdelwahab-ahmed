@@ -4,6 +4,22 @@
     text-align: center;
     font-family: sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
+}
+.nav-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+.ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
 }
 .top-section{
      background-image: url(https://images.pexels.com/photos/7078666/pexels-photo-7078666.jpeg);
@@ -24,12 +40,18 @@
     text-transform: uppercase;
     padding-top:7% ;
     text-align: left;
+    color: rgb(255, 255, 255);
 
 }
 .small-text{
     color: orange;
     font-weight: lighter;
     font-family:sans-serif;
+}
+.d-text{
+    font-family: sans-serif;
+     text-transform: capitalize;
+     color: white;
 }
 .div1{
    width: 40%;
