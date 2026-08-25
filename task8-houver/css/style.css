@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: lightgray;
+    height: 500px;
+}
+.card-1{
+ background-color: rgb(203, 225, 224);
+ width: 30%;
+ height: 150px;
+ margin: 3%;
+ padding:3%;
+ position: relative;
+ transition: 1s;
+ 
+}
+.icon1{
+ position: absolute;
+ top: 0;
+ right: 0;
+ background-color: teal;
+ width: 50px !important;
+ height: 50px ;
+ border-radius: 0 0 0 100%;
+ display: flex;
+ justify-content: center;
+ padding: 3%;
+}
+.card-1:hover{
+    background-color: teal;
+    color: white;
+}
+.card-2{
+ background-color: white;
+ width: 30%;
+ height: 150px;
+ margin: 2%;
+ padding:3%;
+ border: 2px transparent;
+ position: relative;
+ transition: 1s;
+}
+.card-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background-color: transparent;
+    border-radius:0 0 0 100%; ;
+    transition: 0.5s;
+}
+.card-2:hover{
+    border: 2px rgb(232, 70, 215) solid;
+}
+.card-2:hover::before{
+    background-color:  rgb(232, 70, 215);
+}
+
