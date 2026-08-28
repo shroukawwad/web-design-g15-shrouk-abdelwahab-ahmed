@@ -1,0 +1,20 @@
+.sec-2{
+    width: 95%;
+    margin: auto;
+    padding: 1% 2%;
+}
+.overly{
+    transition-duration: 1s;
+    opacity: 0;
+}
+.card:hover .overly{
+    opacity: 1;
+}
+.btn{
+    background-color: #101828;
+    
+}
+.last-sec{
+    background-color: #101828;
+    color: white;
+}
