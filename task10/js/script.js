@@ -19,6 +19,9 @@ else{
 }
 
 // task-2
+
+
+
 function looping(startNum,endNum, breakNum,contNum){
  if (startNum==undefined|| endNum == undefined || breakNum==undefined || contNum == undefined){
     alert("please enter all data"); return;
@@ -37,3 +40,22 @@ function looping(startNum,endNum, breakNum,contNum){
   }
  }
  looping(1, 10,3,4)
+
+//  task-3
+
+
+
+var courses =["html" ,"css" ,"js"];
+var p=prompt(" enter course");
+
+function info(p){
+    if(courses.includes(p)){
+        console.log("founded")
+    }
+    else{
+        alert("not founded");
+        courses.push(p)
+        console.log(courses)
+    }
+}
+info(p)
